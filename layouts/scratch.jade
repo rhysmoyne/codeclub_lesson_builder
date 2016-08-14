@@ -13,10 +13,11 @@ block scripts
     $(document).ready(function(){
       $('pre').has('code.blocks').addClass('blocks');
       scratchblocks.renderMatching('code.blocks', {
-        languages: ['nb', 'en']
+        languages: ['en', 'nb']
       });
       scratchblocks.renderMatching('code.b', {
-        languages: ['nb', 'en'],
+        languages: ['en', 'nb'],
         inline: true
       });
+      list_checkboxes();
     });

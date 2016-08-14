@@ -51,3 +51,9 @@ block content
       -codePlacement = config.repo +'/tree/master/'+ config.sourceFolder +'/'
       -codePlacement += path.dir
       a.code(href=codePlacement)= t('improve.showCode')
+
+block scripts
+  script.
+    $(document).ready(function() {
+      list_checkboxes();
+    });

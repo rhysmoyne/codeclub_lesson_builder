@@ -110,6 +110,17 @@ header {
     padding: 10px 10px;
     float: left;
     margin-left: -40px;
+    cursor: pointer;
+  }
+  li.activity-done {
+    font-style: italic;
+    text-decoration: line-through;
+  }
+  li.activity-done:before {
+    background: url(img/checkbox.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
