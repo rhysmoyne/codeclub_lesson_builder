@@ -5,7 +5,7 @@
   next: "Next",
   prev: "Previous",
   intro: { // Captions for the intro tour.
-    askTour: "Seems like it's a while since you've been here. Would you like a tour?",
+    askTour: "It seems like it's been a while since you've been here. Would you like a tour?",
     skipLabel: "Exit tour",
     frontPage: {
       doneLabel: "Continue tour in Python page",
@@ -18,7 +18,7 @@
       info: "Every programming language has a short introduction. Click <span class=\"glyphicon glyphicon-plus-sign\"></span> to reveal the introduction.",
       playlists: "Playlists contain lessons that fit well together. Click on <span class=\"glyphicon glyphicon-play\"></span> to show the lessons.",
       level1: "Lessons are sorted in degree of difficulty. Here are the introduction lessons, which should be a good start for everyone.",
-      nextUrl: "lessons/Hangman/Hangman.html"
+      nextUrl: "hangman/hangman.html"
     },
     lesson: {
       doneLabel: "Go back to where you started",
@@ -28,7 +28,7 @@
     }
   },
   layout: {
-    codeClubName: "YourCodeClubName",
+    codeClubName: "Creative Kids",
     home: "Home",
     search: "Search",
     takeTour: "Take introduction tour",
@@ -38,20 +38,20 @@
     author: "Author",
     translator: "Translator",
     greeting: "Hi there!",
-    askTour: "Seems like this is your first time here. Would you like a tour?",
+    askTour: "It seems like this is your first time here. Would you like a tour?",
     yes: "Yes!",
     no: "No thanks",
     clickToExpand: "Click to expand",
     clickForInfo: "Click for more info",
-    playlists: "Playlists",
+    playlists: "Themes",
     downloadPdf: "Download PDF",
     levelNames: {
-      '1': 'Novice',
-      '2': 'Apprentice',
-      '3': 'Journeyman',
-      '4': 'Expert',
-      '5': 'Master',
-      '6': 'Champion'
+      '1': 'Level 1',
+      '2': 'Level 2',
+      '3': 'Level 3',
+      '4': 'Level 4',
+      '5': 'Level 5',
+      '6': 'Level 6'
     },
     numberOfLessons: 'Number of lessons',
     teacherNotes: 'Teacher notes',

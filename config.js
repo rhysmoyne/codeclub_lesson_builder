@@ -59,7 +59,7 @@ var config = {
   // link crawling
   productionCrawlStart: 'http://kodeklubben.github.io/',
   showFlags: false,
-  locales: ['nb-NO', 'nn-NO', 'en-US'],
+  locales: ['en-US', 'nb-NO', 'nn-NO'],
   // for improve links in lessons
   repo: 'https://github.com/kodeklubben/oppgaver'
 }
