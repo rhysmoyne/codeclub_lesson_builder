@@ -57,11 +57,11 @@ var config = {
   ghMergeCommand: '../deploy.sh',
   ghSecret: 'secret',
   // link crawling
-  productionCrawlStart: 'http://kodeklubben.github.io/',
+  productionCrawlStart: 'https://creativekids.github.io/projects/',
   showFlags: false,
   locales: ['en-US', 'nb-NO', 'nn-NO'],
   // for improve links in lessons
-  repo: 'https://github.com/kodeklubben/oppgaver'
+  repo: 'https://github.com/CreativeKids/projects'
 }
 
 module.exports = config
